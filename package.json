@@ -1,0 +1,27 @@
+{
+  "name": "backend_ex_1",
+  "version": "1.0.0",
+  "description": "web-server exercise.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "serve": "nodemon index"
+  },
+  "keywords": [
+    "server",
+    "express"
+  ],
+  "author": "Dmitry Seregin",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "nodemon": "^3.1.10"
+  }
+}
